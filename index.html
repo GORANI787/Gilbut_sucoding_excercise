@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page!</title>
+</head>
+<body>
+    <!-- 웹 페이지에 표시할 내용을 적습니다. -->
+    <p>나의 첫번째 웹 페이지</p>
+    <p>
+        안녕하세요,<br>
+        코딩 공부하기 좋은 날입니다.
+    </p>
+    <blockquote cite="URL">
+        <p>블록쿼트 사이트 표시는? 어떻게하는거더라 블라브리블라블라 호헤히호후 바비부베보 마미무메모 사시스세소 보리귀여웡</p>
+    </blockquote>
+    <p>차세대웹기술지원센터의 데이터에 따르면 <q>2021년 대한민국에서 가장 점유율이 높은 웹브라우저는 구글의 크롬입니다.</q></p>
+    <div class="movie">
+        <p>영화 소개</p>
+        <p>영화를 소개하는 페이지입니다.</p>
+        <p>이번 영화의 <span>하이라이트</span> 장면은 바로 여기입니다.</p>
+    </div>
+    <h1>판매 중인 과일</h1>
+    <ul>
+        <li>바나나</li>
+        <li>딸기</li>
+    </ul>
+    <h1>오늘 할일</h1>
+    <ol>
+        <li>HTML 공부</li>
+        <li>보리 양치질</li>
+    </ol>
+    <dl>
+        <dt>보리</dt>
+        <dd>내 첫번째 고양이다.</dd>
+        <dt>레이</dt>
+        <dd>내 둘째 고양이다.</dd>
+    </dl>
+    <a href="#" target="_blank" title="설명글입니다.">링크</a>
+    <a href="http://www.google.com" target="_blank">
+        <img src="./desk1.jpeg" alt="책상사진을 한번 골라봤습니다..">
+    </a>
+    <br>
+    <fieldset>
+        <legend>가족</legend>
+        <p>
+            <select name="family" id="family" >
+                <optgroup label="사람">
+                    <option value="이명희">엄마</option>
+                    <option value="고선영">딸</option>
+            </optgroup>
+                <optgroup label="동물">
+                    <option value="보리">첫째 고양이</option>
+                    <option value="레이">둘째 고양이</option>
+                </optgroup>
+            </select>
+        </p>    
+        <p>
+            <input type="text" placeholder="가장 좋아하는 가족은 누구입니까?" size="100">
+        </p>    
+        </fieldset>
+    <br>
+    <p>
+        <table>
+            <caption> <strong> Favorite Furnitures</strong></caption>
+            <col style="width: 20px">
+            <colgroup span="3" style="width: 120px;"></colgroup>
+            <tr>
+                <th>No</th>
+                <th>Room</th>
+                <th>Furniture</th>
+                <th>Color</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mom's Bedroom</td>
+                <td>Bed</td>
+                <td>Wooden</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mom's Bedroom</td>
+                <td>Drawer</td>
+                <td>White</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gorani's Bedroom</td>
+                <td>Bed</td>
+                <td>Oak</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td rowspan="2">Livingroom</td> <!--행 병합-->
+                <td>Sofa</td> 
+                <td>Oatmeal</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <!-- 병합되어 생성하지 않음. -->
+                <td>Table</td>
+                <td>Natural Wood</td>
+            </tr>
+        </table>
+    </p>
+</body>
+</html>
